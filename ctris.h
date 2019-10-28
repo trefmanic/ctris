@@ -16,8 +16,8 @@
 #include <time.h>
 
 #define VERSION "v0.42" // version info
-#define HEIGHT 24 // height of the screen
-#define WIDTH 80 // width of the screen
+#define HEIGHT 42 // height of the screen
+#define WIDTH 112 // width of the screen
 #define BOARD_HEIGHT (HEIGHT - 5) // height of the board
 #define BOARD_WIDTH 15 // width of the board
 #define EXTRA_BONUS // if defined, you get a bonus for every brick
@@ -28,7 +28,7 @@
 //#define HIDE_CURSOR_WORKAROUND // only needed if autodetection doesn't work
 
 // with this variables you can change the average constancy of a game
-#define SPEED_CONST_1 500
+#define SPEED_CONST_1 100
 #define SPEED_CONST_2 15000
 #define BONUS_CONST 100
 #define LEVEL_CONST 300
